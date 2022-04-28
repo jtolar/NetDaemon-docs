@@ -47,4 +47,5 @@ The settings for the code generator can also be set from the command line, this 
 | -token | A long lived Home Assistant token
 | -o     | The output file to generate
 | -ns    | The namespace to use for the generated code
-
+| -f     | The folder to place generated code file(s).
+| -fpe   | No value required. When used will create a file per entity generated. Ignores -o switch.
